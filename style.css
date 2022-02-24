@@ -140,6 +140,10 @@ font-size: 1.6rem;
         flex-direction: column; 
         display: 100%;
     }
+    #bda-image{
+        width: 20rem;
+        margin: 1rem;
+    }
     .images{
         
          width: 100%;
@@ -151,6 +155,6 @@ font-size: 1.6rem;
     .text-odd{
         margin-left: 4rem;
     }
-
+   
 
 }
