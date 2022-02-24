@@ -103,12 +103,13 @@ font-size: 1.6rem;
 .images:hover{
     box-shadow: 0 0 1rem #fff;
 }
-@media screen and (max-width:780px) {
+@media screen and (max-width:580px) {
     header{
         display: flex;
         align-items: center;
         justify-content: center;
          flex-direction: column;
+         width: 100%;
     }
     .main-header h1{
         /* align-items: center; */
@@ -130,13 +131,18 @@ font-size: 1.6rem;
         flex-direction: column;
         width: 100%; 
     }
+    .text{
+        margin-left: 4rem;
+    }
     .section-container-odd{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column; 
+        display: 100%;
     }
     .images{
+        
          width: 100%;
         
     }
