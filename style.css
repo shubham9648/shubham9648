@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,7 +12,7 @@ header{
 }
 .main-header h1{  
     margin-top: 1rem;
-    padding-right: 28rem;
+    /* padding-right: 28rem; */
     font-weight: 600;
     color: white;
 
@@ -49,7 +48,7 @@ hr{
 }
 .underneath{
 color: white;
-font-size: 2rem;
+ font-size: 2rem; 
 }
 .student-name{
 color: white;
@@ -69,7 +68,7 @@ font-size: 1.6rem;
     
 }
 .image{
-    margin: 3rem;
+     margin: 3rem; 
     /* margin-bottom: 2rem; */
     /* margin-right: 10rem; */
 }
@@ -88,7 +87,7 @@ font-size: 1.6rem;
 }
 .images-odd{
   /* margin-left: 12rem; */
-   margin: 2rem;
+   /* margin: 2rem; */
    /* margin-bottom: 2rem;  */
 }
 .images-odd:hover{
@@ -105,20 +104,20 @@ font-size: 1.6rem;
 }
 @media screen and (max-width:580px) {
     header{
-        display: flex;
+         display: flex;
         align-items: center;
         justify-content: center;
-         flex-direction: column;
+         flex-direction: column; 
          width: 100%;
     }
     .main-header h1{
         /* align-items: center; */
-            margin-left: 10rem; 
+            /* margin-left: 10rem;  */
         
     } 
     .nav-bar{
-         display: inline-block; 
-         margin-left: -20rem;  
+         /* display: inline-block;  */
+         /* margin-left: -20rem;   */
     }
 
     hr{
@@ -149,7 +148,9 @@ font-size: 1.6rem;
     .images-odd{
         width: 100%;
     }
-    
+    .text-odd{
+        margin-left: 4rem;
+    }
 
 
 }
